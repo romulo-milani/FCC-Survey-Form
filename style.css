@@ -1,0 +1,29 @@
+#back-image {
+
+    min-height: 100%;
+    min-width: 100%;    
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 15%; 
+    
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    font-family: poppins;
+    
+}
+
+
+
+main {
+    position: relative;
+}
+
+h1, p {
+    position:relative;
+    color: white;
+    text-align: center;    
+} 
