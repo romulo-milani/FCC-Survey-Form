@@ -4,16 +4,15 @@
     min-width: 100%;    
     height: auto;
     position: fixed;
-    top: 0;
-    left: 0;
     opacity: 15%; 
+    left: 0;
+    top: 0;
     
 }
 
 body {
     background-color: rgb(49, 49, 49);
-    font-family: poppins;
-    
+    font-family: poppins;    
 }
 
 
@@ -22,8 +21,51 @@ main {
     position: relative;
 }
 
-h1, p {
+h1, #thanks {
     position:relative;
     color: white;
     text-align: center;    
 } 
+
+#thanks {
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+header {
+    position: relative;
+    height: 60px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    background-color: black;
+    opacity: 50%;
+}
+
+form {
+    background-color: rgba(0,0,0,0.6);
+    width: 800px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+}
+
+.formp {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+.forminput {    
+    margin-left: 4%;
+    margin-right: 5%;
+    
+    
+}
